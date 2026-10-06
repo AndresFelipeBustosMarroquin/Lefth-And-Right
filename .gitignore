@@ -107,6 +107,11 @@ unlinked_spec.ds
 # Coverage
 coverage/
 
+# Local environment secrets
+**/.env
+**/.env.*
+!**/.env.example
+
 # Symbols
 app.*.symbols
 

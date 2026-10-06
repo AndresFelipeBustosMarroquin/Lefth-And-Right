@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:left_and_right/login.dart';
+import 'package:left_and_right/features/register.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Left and Right',
-      home: const LoginScreen(),
+      home: RegisterScreen(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
